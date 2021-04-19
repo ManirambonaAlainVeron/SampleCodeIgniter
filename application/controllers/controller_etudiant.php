@@ -13,7 +13,7 @@
         }
 
         public function editer_etudiant($id){
-            $data['result'] = $this->model_etudiant->load_etudiant($id);
+            $data['row'] = $this->model_etudiant->load_etudiant($id);
             $this->load->view('header');
             $this->load->view('edit_etudiant', $data);
             $this->load->view('footer');

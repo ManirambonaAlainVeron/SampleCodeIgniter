@@ -22,7 +22,7 @@
 
         public function load_etudiant($id){
             $query = $this->db->get_where('etudiant', array('id'=>$id));
-            return $query->result();
+            return $query->row();
         }
 
         public function update_etud($id){

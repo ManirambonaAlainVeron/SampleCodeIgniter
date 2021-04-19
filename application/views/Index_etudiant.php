@@ -66,7 +66,7 @@
                 <td><?php echo $row->naissance?></td>
                 <td><?php echo $row->contact?></td>
                 <td><?php echo $row->bio?></td>
-                <td><a href="<?php echo base_url('controller_etudiant/editer_etudiant')?>/<?php echo $row->id?>">Edit</a> | <a href="<?php echo base_url('controller_etudiant/delete_etudiant')?>/<?php echo $row->id?>">delete</a></td>
+                <td><a href="<?php echo base_url('controller_etudiant/editer_etudiant');?>/<?php echo $row->id;?>">Edit</a> | <a href="<?php echo base_url('controller_etudiant/delete_etudiant');?>/<?php echo $row->id;?>">delete</a></td>
             </tr>
             <?php }?>
         </tbody>
